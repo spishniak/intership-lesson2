@@ -1,0 +1,22 @@
+{
+  "name": "lesson2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "config": {
+	  "commetizen": {
+		  "path": "cz-conventional-chagelog"
+	  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"commit": "git-cz"
+  },
+  "author": "spishniak",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
